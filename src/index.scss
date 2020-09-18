@@ -1,0 +1,30 @@
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexDirectionColumn {
+  flex-direction: column;
+}
+
+.inactiveText {
+  text-align: center;
+  color: var(--attach_picker_tab_inactive_text);
+}
+
+.marginV4 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.progress {
+  margin-bottom: 0.25rem;
+  .Progress__in {
+    background: var(--dynamic_green);
+  }
+}
+
+.border10{
+  border-radius: 10px;
+}
