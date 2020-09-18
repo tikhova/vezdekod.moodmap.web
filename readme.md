@@ -1,7 +1,8 @@
 # Вездекод, Карта Эмоций.Веб
 
 ## Ссылки
-
+https://vezdekod.moodmap.surge.sh
+https://vk.com/app7601643_81200188
 
 ## Использованные технологии
 * react.js
@@ -13,8 +14,8 @@
 * @vkontakte/vkui-connect
 
 ## Реализованные платформы
-* Web https://vezdekod.moodmap.surge.sh
-* Miniapps https://vk.com/app7601643_81200188
+* Web
+* Miniapps 
 
 ## Комментарии
 Простите, ключа к Google Maps нет :(
