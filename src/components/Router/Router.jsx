@@ -5,14 +5,8 @@ import registerServiceWorker from './../../registerServiceWorker';
 
 import {Panel, View} from '@vkontakte/vkui';
 import '@vkontakte/vkui/dist/vkui.css';
-import TypeOfFee from "./../TypeOfFee/TypeOfFee";
-import TargetFee from "./../TargetFee/TargetFee";
-import RegularFee from "./../RegularFee/RegularFee";
-import {MOOD_MAP, REGISTRATION_FEE, REGULAR_FEE, TARGET_FEE, TYPE_OF_FEE} from "./../../constants/common";
-import RegistrationFee from "../RegistrationFee/RegistrationFee";
-import {CREATE_FEE, FAKE_POST, POSTING_FEE, VIEW_FEE} from "../../constants/common";
-import PostingFee from "../PostingFee/PostingFee";
-import ViewFee from "../ViewFee/ViewFee";
+import {MOOD_MAP} from "./../../constants/common";
+import {CREATE_FEE, FAKE_POST} from "../../constants/common";
 import MoodMap from "../CreatePodcast/CreatePodcast";
 import FakePost from "../FakePost/FakePost";
 

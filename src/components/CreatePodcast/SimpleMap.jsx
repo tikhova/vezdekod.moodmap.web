@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
-import Mood from "../Router/Mood";
-import quarantine from '../../quarantine.svg';
-import sad from '../../sad.svg';
-import sleepy from '../../sleepy.svg';
+import Mood from "../Mood/Mood";
+import quarantine from '../../emojis/quarantine.svg';
+import sad from '../../emojis/sad.svg';
+import sleepy from '../../emojis/sleepy.svg';
 
 class SimpleMap extends Component {
     static defaultProps = {
@@ -17,7 +17,7 @@ class SimpleMap extends Component {
     render() {
         return (
             // Important! Always set the container height explicitly
-            <div style={{ height: '80vh', width: '100%' }}>
+            <div style={{ height: '75vh', width: '100%' }}>
                 <GoogleMapReact
                     defaultCenter={this.props.center}
                     defaultZoom={this.props.zoom}

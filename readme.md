@@ -13,8 +13,9 @@
 * @vkontakte/vkui-connect
 
 ## Реализованные платформы
-* Web
-* Miniapps
+* Web https://vezdekod.moodmap.surge.sh
+* Miniapps https://vk.com/app7601643_81200188
 
 ## Комментарии
 Простите, ключа к Google Maps нет :(
+Есть переход на экран с постом в форме заглушки по клику на эмодзи в нижней панели.

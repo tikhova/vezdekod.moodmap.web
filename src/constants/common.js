@@ -1,4 +1,4 @@
-export const PROJECT_NAME = 'Vezdecode.Charity.Web';
+export const PROJECT_NAME = 'Vezdecode.MoodMap.Web';
 
 /* panels name */
 export const CREATE_PODCAST = 'create_podcast';

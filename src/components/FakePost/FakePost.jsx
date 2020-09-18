@@ -10,6 +10,8 @@ import Icon24LikeOutline from "@vkontakte/icons/dist/24/like_outline";
 import Icon24CommentOutline from "@vkontakte/icons/dist/24/comment_outline";
 import Icon24ShareOutline from "@vkontakte/icons/dist/24/share_outline";
 import Icon24ViewOutline from "@vkontakte/icons/dist/24/view_outline";
+import left from "../../footer_left.svg"
+import views from "../../Views.svg"
 
 const FakePost = () => (
     <React.Fragment>
@@ -25,25 +27,11 @@ const FakePost = () => (
             >
                 Тихова Мария
             </SimpleCell>
-            <img src={"https://sun9-4.userapi.com/c848732/v848732510/13e2fc/CPe8IwKDyKY.jpg"}/>
+            <img width={"100%"} src={"https://sun9-4.userapi.com/c848732/v848732510/13e2fc/CPe8IwKDyKY.jpg"}/>
             <SimpleCell
                 style={{color: "var(--icon_secondary)"}}
-                before={
-                    <React.Fragment>
-                        <Icon24LikeOutline/>
-                        <Text weight="regular">65</Text>
-                        <Icon24CommentOutline/>
-                        <Text weight="regular">42</Text>
-                        <Icon24ShareOutline/>
-                        <Text weight="regular">2</Text>
-                    </React.Fragment>
-                }
-                after={
-                <React.Fragment >
-                    <Icon24ViewOutline/>
-                    <Text weight="regular">99</Text>
-                </React.Fragment>
-            }>
+                before={<img src={left}/>}
+                after={<img src={views}/>}>
             </SimpleCell>
         </Group>
     </React.Fragment>
